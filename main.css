@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  padding: 2%;
+}
+
+#searchContainer{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  background-image:url('crypto_bg.jpg');
+  background-color: grey;
+  background-blend-mode: lighten;
+  padding: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+#appName h2{
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+#searchBar {
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+
+#searchBar:focus {
+    outline: 1px solid #ddd;
+    border: none;
+}
+
+#table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#7ab3ef;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: white;
+}
